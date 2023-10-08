@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('car10.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.Logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.5em;
+    color: #fff;
+    text-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+    
+}
+.navigation .btnLog-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLog-popup:hover{
+    background: #fff;
+    color: #162938;
+
+
+ }
+ 
+ .Logo {
+    background-image: url('Logo4.png');
+    background-repeat: no-repeat, repeat;
+    background-position:  top right;
+    background-size: 140px 140px, contain;
+    padding: 30px 40px 55px 20px;
+    font-family: arial;
+    line-height: 15px 15px ;
+    border-radius: 20px;
+}
+ 
+ 
+.btn {
+    padding: 1.1em 2em;
+    background: none;
+    border: 2px solid plum;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: f7c1aa; 
+    font-weight: bolder;
+    box-shadow: 0 2px 0 2px #000;
+   }
+   
+   .btn:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: plum; 
+    top: 50%;
+    transform: skewX(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+   }
+   
+   .btn:hover {
+    background-color: #bd8aae;
+    color: plum;
+    box-shadow: 0 2px 0 2px #0d3b66;
+   }
+   
+   .btn:hover::before {
+    transform: skewX(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+   }
+   
+   .btn:active {
+    transform: scale(0.9);
+   }
+   
+
+
+
+
+
+   .p3 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+  }
+  .container {
+    padding: 18px 450px;
+    width: 100%;
+      
+    
+  }
+  
+   input[type=text], input[type=password] , input[type=email] {
+       background-color: black;
+       width: 100%;
+    padding: 9px;
+    margin: 11px 0 10px 0;
+    color: plum;
+  }
+  
+  hr {
+      
+    border: 0.5px solid f7c1aa;
+    margin-bottom: 0.6px;
+    
+    
+  }
+  
+  
+  a {
+    color:  dodgerblue;
+  }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+  
